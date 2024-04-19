@@ -13,7 +13,7 @@ servidor.use(cors());
 servidor.use(json());
 
 //establezco de momento una url estatica
-servidor.use("/alfredo", express.static("./pruebas"))
+// servidor.use("/alfredo", express.static("./pruebas"))
 
 
 //metodo para leer las tareas
